@@ -1,0 +1,29 @@
+# Python environments and caches
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Raw financial data and annual reports stay local
+/data/raw/
+
+# Temporary output and macOS files
+/tmp/
+/output/
+.DS_Store
+~$*
+.~*
+
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+.aws/
+*.pem
+*.key
+
+# Personal document unrelated to this research project
+/徐日琪_简历.docx
